@@ -78,7 +78,7 @@ function mouseReleased(){
 }
 
 function keyPressed(){
-    if(keyCode === 32){
+    if(keyDown("SPACE")){
         slingshot.attach(bird.body);
     }
 }
